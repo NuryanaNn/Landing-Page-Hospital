@@ -1,0 +1,226 @@
+.navbar{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+.tombol{
+    border-radius: 40px;
+}
+
+.jumbotron{
+    background-image: url(img/jumbotron2.png);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.display-4{
+    margin-top: 70px;
+    margin-left: 30px;
+    color: white;
+}
+
+.lead, .tombol{
+    margin-left: 30px;
+    color: white;
+}
+
+.gigi{
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px green;
+    
+}
+
+.contact{
+    height: 300px;
+    padding-top: 2px;
+    margin-left: -2px;
+    margin-top: 140px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.wa{
+    display: flex;
+    margin-top: 10px;
+}
+
+.wa h6{
+    margin-top: 10px;
+}
+
+/* About Us */
+.about{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.kenapa{
+    margin-top: 40px;
+}
+
+
+/* testimoni */
+.testimoni img{
+    
+    margin-top: 40px;
+    text-align: left;
+}
+
+.testimoni h6{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+/* Dokter */
+.dokter{
+    color: white;
+    background-color: aqua;
+    margin-top: 90px;
+    height: 2100px;
+    padding-top: 20px;
+}
+
+
+.ahli{
+    color: black;
+    margin-top: 50px;
+    margin-left: 8px;
+}
+
+/* Rating */
+.rating{
+    margin-top: -70px;
+}
+
+.rate{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.rate img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.rate p{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.testi{
+    margin-top: 50px;
+}
+
+.penghargaan{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.penghargaan p{
+    margin-top: 40px;
+}
+
+.piagam{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* IGD */
+.igd{
+    margin-top: 70px;
+}
+
+.igd1{
+    background-color: green;
+    color: white;
+}
+
+.igd h6{
+    margin-top: 10px;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: 40px;
+}
+
+
+.sp{
+    margin-left: 35px;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+
+.footer li svg{
+    margin-right: 10px;
+}
+
+.name{
+    background-color: blue;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* Desktop Version */
+@media (min-width:992px){
+    /* Navbar */
+
+    .tombol{
+        border-radius: 40px;
+        text-align: left;
+    }
+
+    /* Jumbotron */
+    .jumbotron{
+        background-image: url(img/jumbotron1.png);
+        height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: left;
+        
+    }
+
+    .display-4{
+        margin-top: 70px;
+        margin-left: 90px;
+        color:black;
+    }
+    
+    .lead, .tombol{
+        margin-left: 90px;
+        color: black;
+    }
+    .card{
+        margin-left: 30px;
+        
+    }
+
+    .contact{
+        height: 100px;
+        padding-top: 2px;
+    }
+
+    /* Dokter Ahli */
+    .dokter{
+        color: white;
+        background-color: aqua;
+        margin-top: 90px;
+        height: 850px;
+        padding-top: 30px;
+    }
+
+/* Pengahargaan */
+    .piagam{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
